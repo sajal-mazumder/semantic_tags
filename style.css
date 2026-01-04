@@ -1,0 +1,24 @@
+header{
+    width: 100%;
+    height: 60px;
+    background-color: aquamarine;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+nav li{
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* display: inline; */
+    /* margin-right: 15px; */
+     margin-top: 20px ;
+     cursor: pointer;
+}
+nav ul li:hover{
+    color: rgb(68, 5, 241);
+    transition: 0.5s ease;
+}
